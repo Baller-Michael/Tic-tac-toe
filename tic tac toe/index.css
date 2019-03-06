@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.board-container {
+    height: 100%;
+    width: 100%;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: 618px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 3px solid greenyellow;
+    font-size: 56px;
+}
+
+.square:hover {
+    background-color: rgb(236, 255, 127);
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 56px;
+}
+
+.winner {
+    display: none;
+    padding: 10px;
+    font-size: 32px;
+    color: blueviolet;
+}
+
+.reset {
+    padding: 10px;
+    margin: 10px;
+}
